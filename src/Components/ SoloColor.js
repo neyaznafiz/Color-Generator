@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react"
 import { toast } from "react-toastify";
-import HexFromRgb from "./Utilities.js "
+import HexFromRgb from "./utility"
 
 
 const SoloColor = ({index, rgb, weight }) => {
 
   const [alert, setAlert] = useState(false);
-  const bcg = rgb.toString()
+  const bcg = rgb.join(",");
   // console.log(bcg)
   const Hex = HexFromRgb(...rgb)
 
