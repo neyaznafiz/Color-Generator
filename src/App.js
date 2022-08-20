@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-[#d1d6cc] h-full pb-10">
       
     </div>
   );
